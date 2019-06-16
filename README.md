@@ -32,6 +32,14 @@ The CNN model utilises a validation split as a performance measure. The training
 
 The model contains two arguments that prompt call-back methods to be executed during training and validation (Keras, 2019); TensorBoard and EarlyStopping.
 
+## Results
 
-
+| Image | Expected Emotion | Emotion Result | Quantative Measure |
+|-------|------------------|----------------|--------------------|
+|    ![alt text](https://github.com/Harvey-Mackie/Emotion-Recognition-System/blob/master/Colab%20Notebooks/Live-Testing-Set/Jo/anger/jo_anger.JPG "Jo Angry")   | Anger            | Anger          | Anger - 58%        |   
+|      ![alt text](https://github.com/Harvey-Mackie/Emotion-Recognition-System/blob/master/Colab%20Notebooks/Live-Testing-Set/Jo/disgust/jo_disgust.JPG "Jo Angry")  | Disgust          | Anger          | Anger - 50%        |   
+|      ![alt text](https://github.com/Harvey-Mackie/Emotion-Recognition-System/blob/master/Colab%20Notebooks/Live-Testing-Set/Jo/fear/jo_fear.JPG "Jo Fear") | Fear             | Fear           | Fear - 92%         |   
+|    ![alt text](https://github.com/Harvey-Mackie/Emotion-Recognition-System/blob/master/Colab%20Notebooks/Live-Testing-Set/Jo/joy/jo_joy.JPG "Jo Angry")    | Joy              | Joy            | Joy - 75%        |   
+|    ![alt text](https://github.com/Harvey-Mackie/Emotion-Recognition-System/blob/master/Colab%20Notebooks/Live-Testing-Set/Jo/sadness/jo_sadness.JPG "Jo Angry")    | Sadness          | Sadness        | Sadness - 42%        | 
+|      ![alt text](https://github.com/Harvey-Mackie/Emotion-Recognition-System/blob/master/Colab%20Notebooks/Live-Testing-Set/Jo/surprised/jo_surprised.JPG "Jo Surprise")  | Surprise             | Surprise           | Surprise - 65%         |
 
