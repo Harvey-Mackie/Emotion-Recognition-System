@@ -28,7 +28,7 @@ Gathering datasets large enough to train the neural network to be accurate and r
 
 ## Training
 
-The CNN model utilises a validation split as a performance measure. The training set is split; 80% of the  training  set  is allocated  for training the  model and  20%  is allocated for  testing the  model. The testing data contains 6018image samples. The large dataset allows for the model’s generalisation to be analysed based on the validation accuracy and loss values. Due to a large number of images being tested (testing data), providing a visual representation of the accuracy of the model’s predictions on unseen data.
+The CNN model utilises a validation split as a performance measure. The training set is split; 80% of the  training  set  is allocated  for training the  model and  20%  is allocated for  testing the  model. The testing data contains 6018 image samples. The large dataset allows for the model’s generalisation to be analysed based on the validation accuracy and loss values. Due to a large number of images being tested (testing data), providing a visual representation of the accuracy of the model’s predictions on unseen data.
 
 The model contains two arguments that prompt call-back methods to be executed during training and validation (Keras, 2019); TensorBoard and EarlyStopping.
 
